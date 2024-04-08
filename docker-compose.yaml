@@ -1,0 +1,18 @@
+services:
+  frete-back:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    container_name: frete_back
+    networks:
+      - back-bridge
+  db:
+    image: mongo:7.0.8
+    container_name: frete_db
+    networks:
+      - back-bridge
+networks:
+  back-bridge:
+    driver: bridge
