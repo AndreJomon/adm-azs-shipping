@@ -1,7 +1,7 @@
 # CRUD of Frete
 This project was create to show a simple CRUD of Fretes. With all basics operations.
 
-# Framework
+## Framework
 
 This project was built using Spring Boot and MongoDB.
 
