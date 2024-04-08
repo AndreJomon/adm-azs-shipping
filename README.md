@@ -72,7 +72,7 @@ Update a existing document on the database. The body of the request need to have
 ```
 The document with this id will be updated with the information of the key-values of "freteInfo".
 
-## Delete
+### Delete
 ```http
 POST http://localhost:8080/api/v1/frete/delete
 ```
